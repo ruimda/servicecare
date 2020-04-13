@@ -1,6 +1,6 @@
 # Truck-Service
 
-This service, a Spring Boot application, provides endpoints that fetch truck information from a MySQL database.
+This service, a Java 11 Spring Boot application, provides endpoints that fetch truck information from a MySQL database.
 
 ## Setup
 
@@ -15,8 +15,8 @@ To setup the database follow the steps below:
 ### Service setup
 
 Service parameters present in `application.yml`:
-- port - http where service runs (default is 8081)
-- app.location-history-size - number os locations returns by the locations endpoint (default is 5)
+- port - http where service runs (set to 8081)
+- app.location-history-size - number os locations returns by the locations endpoint (set to 5)
 
 ## Build
 

@@ -26,4 +26,4 @@ logging:
     org.springframework.security: DEBUG
 
 app:
-  location-history-size: 4
+  location-history-size: 5
