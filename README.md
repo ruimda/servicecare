@@ -6,10 +6,10 @@ This project is a code challenge proposed by MAN. It consists of a Web applicati
 Has two components:
 
 - A backend app written in Java Spring Boot, called truck-service. This service implements a REST API that provides information about the
- truck and it's last locations. More info here: [Truck-Service](backend/truck-service/README.md)
+ truck and it's last locations. More info here: [Truck-Service](backend/truck-service)
 
 - A frontend app (monitor) written in React, that displays the truck location on the Map, and let's users find nearby points of interest. 
-More info here: [Monitor](frontend/monitor/README.md)
+More info here: [Monitor](frontend/monitor)
 
 ## Screenshots
 
