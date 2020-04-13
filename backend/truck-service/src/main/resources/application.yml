@@ -1,0 +1,29 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: service-care
+  datasource:
+    url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/trucks?serverTimezone=GMT
+    username: root
+    password: myroot
+
+
+management:
+  endpoints:
+    enabled-by-default: false
+  endpoint:
+    health:
+      enabled: true
+
+
+logging:
+  file:
+    name: truck-service.log
+  level:
+    root: INFO
+    org.springframework.security: DEBUG
+
+app:
+  location-history-size: 4

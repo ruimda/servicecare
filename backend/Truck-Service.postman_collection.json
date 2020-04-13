@@ -1,0 +1,84 @@
+{
+	"info": {
+		"_postman_id": "fe4c7e2d-daa6-4693-8d37-89b24065549c",
+		"name": "Truck-Service",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get Truck",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/api/trucks?licensePlate=234-LIS",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"trucks"
+					],
+					"query": [
+						{
+							"key": "licensePlate",
+							"value": "234-LIS"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Truck Locations",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/api/trucks?licensePlate=234-LIS",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"trucks"
+					],
+					"query": [
+						{
+							"key": "licensePlate",
+							"value": "234-LIS"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "bcac0427-cc77-4daa-abf0-ddede4de5203",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "2166e83c-8fb4-4b36-b89a-0e334fd3fae6",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"protocolProfileBehavior": {}
+}
